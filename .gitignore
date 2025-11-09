@@ -1,0 +1,7 @@
+# .gitignore
+.venv/         # Jangan upload virtual environment
+__pycache__/   # Jangan upload cache Python
+*.pyc          # Jangan upload file compiled Python
+*.h5           # Peringatan: Model Anda berukuran besar (serangga_cnn_model_v1.h5)
+               # Untuk deployment sederhana, kita tetap upload model (.h5)
+               # Namun, untuk proyek besar, model harus disimpan di layanan cloud terpisah.
